@@ -1,0 +1,71 @@
+﻿<Page x:Class="RSKita.View.PoliPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RSKita.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="667" d:DesignWidth="375"
+      Title="PoliPage">
+    <Grid Background="#FF129A7F">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="184*"/>
+            <ColumnDefinition Width="183*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="rslogo" Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="224" Margin="1,0,-1.8,0" VerticalAlignment="Top" Width="376" RenderTransformOrigin="0.5,0.5" Opacity="0.65" Stretch="Fill" Source="/RSKita;component/Image/RS3.jpg">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.735"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.321"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+
+
+        <Border BorderBrush="#FF000000" CornerRadius="30,30,0,0" Grid.ColumnSpan="3" Margin="0,204,0.2,0.2"
+                Background="#F1F1FA"/>
+
+
+
+        <Rectangle Grid.ColumnSpan="3" HorizontalAlignment="Center" Height="150" Stroke="#FFF1F1F1" VerticalAlignment="Top" Width="355" Margin="10,36,10.2,0" Opacity="0.5" Fill="#FF3A1414"/>
+        <Image x:Name="dr_image"  Stretch="Fill" Grid.ColumnSpan="2" Margin="6,315,86,244.2">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.735" AngleY="-0.026"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.321" Y="0.023"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+        <Separator Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="18" Margin="42,123,0,0" VerticalAlignment="Top" Width="296" Foreground="White" OpacityMask="White" BorderBrush="White"/>
+        <Image x:Name="image" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="40" Margin="42,146,0,0" VerticalAlignment="Top" Width="40"/>
+        <Label x:Name="label2_Copy1" Content="Rating" Grid.Column="1" HorizontalAlignment="Left" Margin="87,130,0,0" VerticalAlignment="Top" Foreground="White" Width="43" FontSize="10"/>
+        <Label x:Name="lblRsRate" Content="4.0" Grid.Column="1" HorizontalAlignment="Left" Margin="95,154,0,0" VerticalAlignment="Top" Foreground="White" Width="23" FontSize="10" RenderTransformOrigin="0.526,0.042"/>
+        <Image x:Name="image_Copy" HorizontalAlignment="Left" Height="40" Margin="28,146,0,0" VerticalAlignment="Top" Width="40" Grid.Column="2"/>
+        <Label x:Name="label2_Copy3" Content="Rekomendasi" Grid.Column="2" HorizontalAlignment="Left" Margin="44,130,0,0" VerticalAlignment="Top" Foreground="White" Width="70" FontSize="10"/>
+        <Label x:Name="llbRsRecomended" Content="1,200" Grid.Column="2" HorizontalAlignment="Left" Margin="59,154,0,0" VerticalAlignment="Top" Foreground="White" Width="38" FontSize="10"/>
+
+        <Label x:Name="lblDoctorList" Content="Daftar Dokter" Grid.Column="1" HorizontalAlignment="Left" Margin="42,220,0,0" VerticalAlignment="Top" Foreground="#FF1A1A1A" Grid.ColumnSpan="2" Width="157" FontWeight="Bold"/>
+        <Button x:Name="btnKemabli" Content="&lt; Kembali" Grid.Column="1" HorizontalAlignment="Center" Margin="10,16,106,0" VerticalAlignment="Top" Foreground="White" Width="72" FontSize="10" Background="{x:Null}" BorderThickness="0" Click="label2_Copy16_Click" Height="20"/>
+        <Label x:Name="lblRsName" Content="RsName" Grid.Column="1" HorizontalAlignment="Left" Margin="79,60,0,0" VerticalAlignment="Top" Foreground="White" Grid.ColumnSpan="2" Width="157"/>
+        <Label x:Name="lblRsAddres" Content="Jalan Wijen Sangrai No 66" Grid.Column="1" HorizontalAlignment="Left" Margin="79,86,0,0" VerticalAlignment="Top" Foreground="White" Grid.ColumnSpan="2" Width="157" FontSize="10"/>
+
+
+        <Grid Grid.ColumnSpan="3" Margin="95,299,10.2,223.2">
+            <StackPanel Background="#FFFFFF" Grid.Row="0" Grid.Column="0" Margin="10,10,11,10" >
+                <Label x:Name="lblDrName" Content="Dr.Name" FontSize="23" FontWeight="Bold"/>
+                <Label x:Name="lblDrSpeicality" Content="Dr.Speciality" FontSize="10" />
+                <Label x:Name="lblDrtime" Content=""/>
+                <Button x:Name="btngo1" Content="Buat Tiket Antrian" Height="24" Margin="0,0,-0.4,0" Click="btngo1_Click"/>
+            </StackPanel>
+        </Grid>
+        <Frame x:Name="frame" Content="Frame" HorizontalAlignment="Center" Height="670" VerticalAlignment="Top" Width="375" NavigationUIVisibility="Hidden" Margin="0,0,0.2,-2.8" Grid.ColumnSpan="3"/>
+    </Grid>
+</Page>

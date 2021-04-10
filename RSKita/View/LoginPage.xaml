@@ -1,0 +1,36 @@
+﻿<Window x:Class="RSKita.View.LoginPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RSKita.View"
+        mc:Ignorable="d"
+        Title="RSKita" Height="667" Width="375" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0,-21">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="184*"/>
+            <ColumnDefinition Width="183*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Rectangle Grid.ColumnSpan="3" Fill="#FFF1F1F1" HorizontalAlignment="Left" Height="657" Stroke="#FFF1F1F1" VerticalAlignment="Top" Width="367"/>
+        <Rectangle Grid.ColumnSpan="2" Fill="White" HorizontalAlignment="Left" Height="47" Stroke="White" VerticalAlignment="Top" Width="184"/>
+        <Rectangle Grid.Column="2" HorizontalAlignment="Left" Height="47" Stroke="#FFF1F1FA" VerticalAlignment="Top" Width="183" Fill="#FFF1F1FA"/>
+        <Rectangle Grid.ColumnSpan="3" Fill="White" HorizontalAlignment="Left" Height="114" Margin="10,247,0,0" Stroke="#FFF1F1FA" VerticalAlignment="Top" Width="347" RenderTransformOrigin="0.5,0.5"/>
+        <Label Content="Email" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="25" Margin="10,259,0,0" VerticalAlignment="Top" Width="347" RenderTransformOrigin="0.5,0.5"/>
+        <TextBox x:Name="txtEmail"  Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="23" Margin="10,284,0,0" VerticalAlignment="Top" Width="347" RenderTransformOrigin="0.5,0.5" />
+        <Button x:Name="ButtonMasuk" Grid.ColumnSpan="3" Content="Masuk" HorizontalAlignment="Left" Height="40" Margin="18,386,0,0" VerticalAlignment="Top" Width="331" Background="#FF129A7F" Click="LoginButton_Click" Focusable="False"/>
+        <Separator Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="52" Margin="71,456,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.98,0.01"/>
+        <Separator HorizontalAlignment="Left" Height="52" Margin="56,456,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.98,0.01" Grid.Column="2"/>
+        <Ellipse Grid.ColumnSpan="2" Fill="White" HorizontalAlignment="Left" Height="66" Margin="56,543,0,0" Stroke="#FFF1F1FA" VerticalAlignment="Top" Width="66"/>
+        <Ellipse Grid.ColumnSpan="3" Fill="White" HorizontalAlignment="Left" Height="66" Margin="151,543,0,0" Stroke="#FFF1F1FA" VerticalAlignment="Top" Width="66"/>
+        <Ellipse Fill="White" HorizontalAlignment="Left" Height="66" Margin="56,543,0,0" Stroke="#FFF1F1FA" VerticalAlignment="Top" Width="66" Grid.Column="2"/>
+        <Separator Grid.Column="2" HorizontalAlignment="Left" Height="21" Margin="0,36,0,0" VerticalAlignment="Top" Width="183" Background="#FF129A7F" FontWeight="Bold"/>
+        <Button x:Name="labelDaftar" Grid.ColumnSpan="2" Content="Daftar" HorizontalAlignment="Left" Height="47" VerticalAlignment="Top" Width="184" Foreground="#FF129A7F" FontSize="14" Background="White" Click="labelDaftar_Click" Focusable="False"/>
+        <Button x:Name="labelMasuk" Content="Masuk" HorizontalAlignment="Left" Height="47" Margin="0.2,0,0,0" VerticalAlignment="Top" Width="182" Foreground="#FF129A7F" Grid.Column="2" FontSize="14" Background="#FFF1F1FA" Click="labelMasuk_Click" Focusable="False"/>
+        <Label Content="Password" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="25" Margin="10,308,0,0" VerticalAlignment="Top" Width="347" RenderTransformOrigin="0.5,0.5"/>
+        <PasswordBox x:Name="txtPassword"  Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="23" Margin="10,333,0,0" VerticalAlignment="Top" Width="347" RenderTransformOrigin="0.5,0.5" />
+
+    </Grid>
+</Window>

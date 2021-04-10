@@ -1,0 +1,67 @@
+﻿<Page x:Class="RSKita.View.HospitalPage2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RSKita.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="667" d:DesignWidth="367"
+      Title="HospitalPage2">
+
+    <Grid Grid.Row="1" Grid.Column="1" Background="#FF129A7F" >
+        <ScrollViewer>
+            <Grid Height="1205">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="5"/>
+                </Grid.RowDefinitions>
+                <Border BorderBrush="#FF000000" CornerRadius="30,30,0,0" Grid.ColumnSpan="3" Margin="0,60,0.4,0"
+                Background="#F1F1FA" Grid.RowSpan="3">
+                </Border>
+                <Label x:Name="textBox" Content="Daftar Rumah Sakit" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="28" Margin="10,101,0,0"  VerticalAlignment="Top" Width="328" Background="{x:Null}" BorderBrush="#FFF1F1F1" FontSize="16" Foreground="#FF1A1A1A"/>
+
+                <StackPanel Background="#FFFFFF" Grid.Row="0" Grid.Column="0" Margin="10,134,10.4,246" Grid.ColumnSpan="3" >
+                    <Image x:Name="HospitalImage1" Source="/RSKita;component/Image/Hospital.jpg" VerticalAlignment="Center" Height="140" RenderTransformOrigin="0.502,0.187" Stretch="Fill" Margin="10,0,10.4,0"/>
+                    <Label x:Name="lblHospitalName1" HorizontalAlignment="Left" Content="Hospital Name" FontSize="15" FontWeight="Bold"/>
+                    <Label x:Name="lblHospitalAddres1" HorizontalAlignment="Left" Content="Hospital Addrss" FontSize="12"/>
+                    <Button x:Name="btngo1" Content="Pilih Dokter" Height="24" Margin="0,0,-0.4,0" Click="btngo1_Click"/>
+                </StackPanel>
+
+
+                <StackPanel Background="#FFFFFF" Grid.Row="0" Margin="10,359,10.4,21" Grid.ColumnSpan="3" >
+                    <Image x:Name="HospitalImage2" Source="/RSKita;component/Image/Hospital.jpg" Height="140" VerticalAlignment="Center" RenderTransformOrigin="0.502,0.187" Stretch="Fill" Margin="10,0,10.6,0"/>
+                    <Label x:Name="lblHospitalName2" HorizontalAlignment="Left" Content="Hospital Name" FontSize="15" FontWeight="Bold"/>
+                    <Label x:Name="lblHospitalAddres2" HorizontalAlignment="Left" Content="Hospital Addrss" FontSize="12"/>
+                    <Button x:Name="btngo2" Content="Pilih Dokter" Height="24" Margin="0,0,-0.4,0" Click="btngo2_Click"/>
+                </StackPanel>
+
+
+
+                <StackPanel Background="#FFFFFF" Grid.Row="0" Margin="10,584,12.4,351" Grid.ColumnSpan="3" Grid.RowSpan="2" >
+                    <Image x:Name="HospitalImage3" Source="/RSKita;component/Image/Hospital.jpg" Height="185" VerticalAlignment="Center" RenderTransformOrigin="0.502,0.187" Stretch="Fill" Margin="10,0"/>
+                    <Label x:Name="lblHospitalName3" HorizontalAlignment="Left" Content="Hospital Name" FontSize="15" FontWeight="Bold"/>
+                    <Label x:Name="lblHospitalAddres3" HorizontalAlignment="Left" Content="Hospital Addrss" FontSize="12"/>
+                    <Button x:Name="btngo3" Content="Pilih Dokter" Height="24" Margin="0,0,-0.4,0" Click="btngo3_Click"/>
+                </StackPanel>
+
+
+
+                <StackPanel Background="#FFFFFF" Grid.Row="1" Margin="10,254,12.4,5" Grid.ColumnSpan="3" >
+                    <Image x:Name="HospitalImage4" Source="/RSKita;component/Image/Hospital.jpg" Height="140" VerticalAlignment="Center" RenderTransformOrigin="0.502,0.187" Stretch="Fill" Margin="10,0,10.4,0"/>
+                    <Label x:Name="lblHospitalName4" HorizontalAlignment="Left" Content="Hospital Name" FontSize="15" FontWeight="Bold"/>
+                    <Label x:Name="lblHospitalAddres4" HorizontalAlignment="Left" Content="Hospital Addrss" FontSize="12"/>
+                    <Button x:Name="btngo4" Content="Pilih Dokter" Height="24" Margin="0,0,-0.4,0" Click="btngo4_Click"/>
+                </StackPanel>
+            </Grid>
+        </ScrollViewer>
+        <Frame x:Name="frame" Content="Frame" HorizontalAlignment="Center" Height="667" VerticalAlignment="Top" Width="367" NavigationUIVisibility="Hidden" Margin="0,0,0.2,0"/>
+    </Grid>
+
+
+</Page>

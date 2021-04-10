@@ -1,0 +1,39 @@
+﻿<Page x:Class="RSKita.View.HistoryPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RSKita.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="HistoryPage" Height="667" Width="375">
+
+    <Grid Margin="0,0,0,-21">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="184*"/>
+            <ColumnDefinition Width="183*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Grid.ColumnSpan="3" Fill="#FFF1F1F1" HorizontalAlignment="Left" Height="660" Stroke="#FFF1F1F1" VerticalAlignment="Top" Width="367"/>
+        <Rectangle Grid.ColumnSpan="3" Fill="White" HorizontalAlignment="Left" Height="168" Stroke="#FFF1F1F1" VerticalAlignment="Top" Width="296" Margin="36,121,0,0"/>
+        <Image x:Name="image1_Copy" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="50" Margin="51,140,0,0" VerticalAlignment="Top" Width="50"/>
+        <Image x:Name="docimage" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="66" Margin="53,140,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Label x:Name="docname" Grid.ColumnSpan="3" Content="docname" HorizontalAlignment="Left" Margin="118,140,0,0" VerticalAlignment="Top" Width="153" Height="36" Foreground="Black"/>
+        <Label x:Name="docspeical" Grid.ColumnSpan="3" Content="Docspecial" HorizontalAlignment="Left" Margin="118,169,0,0" VerticalAlignment="Top" Width="153" Height="28" Foreground="Black"/>
+        <Label x:Name="lbldate" Content="date" Grid.Column="1" HorizontalAlignment="Left" Margin="50,211,0,0" VerticalAlignment="Top" Foreground="Black" Width="124"/>
+        <Label x:Name="lbltime" Content="time" Grid.Column="2" HorizontalAlignment="Left" Margin="22,211,0,0" VerticalAlignment="Top" Foreground="Black" Width="118" Height="32"/>
+        <Button x:Name="button" Grid.ColumnSpan="3" Content="Aktif" HorizontalAlignment="Left" Height="34" Margin="51,242,0,0" VerticalAlignment="Top" Width="273" Foreground="White" BorderBrush="#FF129A7F" Background="#FF129A7F"/>
+        <Image x:Name="image1_Copy1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="50" Margin="50,326,0,0" VerticalAlignment="Top" Width="50"/>
+        <Image x:Name="image1_Copy2" HorizontalAlignment="Left" Height="50" Margin="52,511,0,0" VerticalAlignment="Top" Width="50" Grid.Column="1"/>
+        <Label x:Name="label2_Copy5" Content="Est. Waktu       30m" Grid.Column="2" HorizontalAlignment="Left" Margin="30,573,0,0" VerticalAlignment="Top" Foreground="#FF1A1A1A"/>
+        <Button x:Name="button_Copy1" Grid.ColumnSpan="2" Content="Selesai" HorizontalAlignment="Left" Height="34" Margin="52,613,0,0" VerticalAlignment="Top" Width="273" Foreground="#FF1A1A1A" BorderBrush="#FFF1F1F1" Background="#FFF1F1F1" Grid.Column="1"/>
+        <Label x:Name="label2_Copy6" Content="Antrian saat ini      15" Grid.Column="1" HorizontalAlignment="Left" Margin="53,573,0,0" VerticalAlignment="Top" Foreground="#FF1A1A1A"/>
+        <Rectangle Grid.ColumnSpan="3" Fill="White" HorizontalAlignment="Left" Height="54" Margin="-1,581,0,0" Stroke="#FFF1F1F1" VerticalAlignment="Top" Width="366"/>
+        <Button x:Name="button1_Copy3" Content="Home" HorizontalAlignment="Left" Height="35" Margin="34,590,0,0" VerticalAlignment="Top" Width="35" BorderBrush="{x:Null}" Background="{x:Null}" Grid.ColumnSpan="2"/>
+        <Button x:Name="button1_Copy4" Content="search" HorizontalAlignment="Left" Height="35" Margin="118,590,0,0" VerticalAlignment="Top" Width="35" BorderBrush="{x:Null}" Background="{x:Null}" Grid.ColumnSpan="2"/>
+        <Button x:Name="button1_Copy5" Content="History" HorizontalAlignment="Left" Height="35" Margin="27,590,0,0" VerticalAlignment="Top" Width="35" BorderBrush="{x:Null}" Background="{x:Null}" Grid.Column="2"/>
+        <Button x:Name="button1_Copy6" Content="Profile" HorizontalAlignment="Left" Height="35" Margin="111,590,0,0" VerticalAlignment="Top" Width="35" Background="{x:Null}" BorderBrush="{x:Null}" Grid.Column="2"/>
+
+    </Grid>
+</Page>

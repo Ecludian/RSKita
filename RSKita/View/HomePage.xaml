@@ -1,0 +1,43 @@
+﻿<Window x:Class="RSKita.View.HomePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RSKita.View"
+        mc:Ignorable="d"
+        Title="RSKita" Height="667" Width="375" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid Margin="0,0,0,-21">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="248*"/>
+            <RowDefinition Height="81*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="184*"/>
+            <ColumnDefinition Width="183*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Border BorderBrush="#FF000000" CornerRadius="30,30,0,0" Grid.ColumnSpan="4" Margin="0,157,-0.2,18.4"
+                Background="#F1F1FA" Grid.RowSpan="2">
+        </Border>
+        <Image x:Name="image" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="228" Margin="1,0,0,0" VerticalAlignment="Top" Width="366"/>
+        <Rectangle Grid.ColumnSpan="3" Fill="White" HorizontalAlignment="Left" Height="44" Stroke="#FFF1F1F1" VerticalAlignment="Top" Width="296" Margin="36,184,0,0"/>
+        <Rectangle Grid.ColumnSpan="3" Fill="#FF129A7F" HorizontalAlignment="Left" Height="116" Stroke="#FFF1F1F1" VerticalAlignment="Top" Width="296" Margin="36,329,0,0"/>
+        <Label x:Name="label" Grid.ColumnSpan="2" Content="Tiketmu" HorizontalAlignment="Left" Height="32" Margin="36,297,0,0" VerticalAlignment="Top" Width="78" FontSize="14" FontWeight="Bold" RenderTransformOrigin="0.872,1.281"/>
+        <Button x:Name="btnNewAppt" Grid.ColumnSpan="3" Content="Buat Antrian Baru" HorizontalAlignment="Left" Height="44" Margin="36,248,0,0" VerticalAlignment="Top" Width="296" Background="White" Foreground="#FF129A7F" FontWeight="Bold" Click="btnNewAppt_Click"/>
+        <Image x:Name="docimage" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="50" Margin="51,344,0,0" VerticalAlignment="Top" Width="50" Stretch="Fill"/>
+        <Label x:Name="docname" Grid.ColumnSpan="3" Content="" HorizontalAlignment="Left" Margin="106,338,0,0" VerticalAlignment="Top" Width="153" Height="36" Foreground="White"/>
+        <Label x:Name="docspeical" Grid.ColumnSpan="3" Content="" HorizontalAlignment="Left" Margin="106,358,0,0" VerticalAlignment="Top" Width="153" Height="28" Foreground="White"/>
+        <Label x:Name="lbldate" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="51,410,0,0" VerticalAlignment="Top" Foreground="White" Width="124"/>
+        <Label x:Name="lbltime" Content="" Grid.Column="2" HorizontalAlignment="Left" Margin="29.2,410,0,0" VerticalAlignment="Top" Foreground="White" Width="118"/>
+        <Button x:Name="btnHome" Grid.ColumnSpan="2" Content="Home" HorizontalAlignment="Left" Height="35" Margin="36,98.6,0,0" VerticalAlignment="Top" Width="35" BorderBrush="{x:Null}" Background="{x:Null}" Click="btnHome_Click_1" Grid.Row="1"/>
+        <Button x:Name="btnSearch" Grid.ColumnSpan="2" Content="search" HorizontalAlignment="Left" Height="35" Margin="106,98.6,0,0" VerticalAlignment="Top" Width="49" BorderBrush="{x:Null}" Background="{x:Null}" Click="btnSearch_Click_1" Grid.Row="1"/>
+        <Button x:Name="btnHistory" Content="History" HorizontalAlignment="Left" Height="35" Margin="29.2,98.6,0,0" VerticalAlignment="Top" Width="45" Grid.Column="2" BorderBrush="{x:Null}" Background="{x:Null}" Grid.Row="1" Click="btnHistory_Click_1"/>
+        <Button x:Name="btnProfile" Content="Profile" HorizontalAlignment="Left" Height="35" Margin="102.2,98.6,0,0" VerticalAlignment="Top" Width="46" Grid.Column="2" Background="{x:Null}" BorderBrush="{x:Null}" Grid.Row="1"/>
+        <Label x:Name="lblUserName" Grid.ColumnSpan="3" Content="Selamat Datang,&#xD;&#xA;Caca" HorizontalAlignment="Left" Height="86" Margin="36,55,0,0" VerticalAlignment="Top" Width="296" FontSize="22" Foreground="#FF129A7F"/>
+        <Frame x:Name="frame" Content="Frame" HorizontalAlignment="Center" Height="580" VerticalAlignment="Top" Width="369" NavigationUIVisibility="Hidden" Grid.RowSpan="2" Grid.Column="1" Margin="0,0,-0.2,0" Navigated="frame_Navigated" Grid.ColumnSpan="3"/>
+        <Button x:Name="button" Grid.ColumnSpan="2" Content="X" Grid.Column="2" HorizontalAlignment="Left" Margin="109.2,0,-0.2,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+    </Grid>
+</Window>
+
+    

@@ -1,0 +1,36 @@
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\RSKita.csprojAssemblyReference.cache
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\MainWindow.g.cs
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\HomePage.g.cs
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\LoginPage.g.cs
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\App.g.cs
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\RegisterPage.g.cs
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\MainWindow.baml
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\HomePage.baml
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\LoginPage.baml
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\RegisterPage.baml
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\RSKita.Properties.Resources.resources
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\RSKita.csproj.GenerateResource.cache
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\RSKita.csproj.CoreCompileInputs.cache
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\HospitalPage.g.cs
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\HospitalPage.baml
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\HistoryPage.g.cs
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\HistoryPage.baml
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\DoctorPage.g.cs
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\PaymentConfirmPage.g.cs
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\PaymentPage.g.cs
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\PoliPage.g.cs
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\DoctorPage.baml
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\PaymentConfirmPage.baml
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\PaymentPage.baml
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\PoliPage.baml
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\HospitalPage2.g.cs
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\View\HospitalPage2.baml
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\App.baml
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\RSKita(ALPHA PROTOTYPE) ver.0.0.1_MarkupCompile.cache
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\RSKita(ALPHA PROTOTYPE) ver.0.0.1_MarkupCompile.lref
+D:\Codex\Source\WPF Project\RSKita\RSKita\bin\Debug\RSKita(ALPHA PROTOTYPE) ver.0.0.1.exe.config
+D:\Codex\Source\WPF Project\RSKita\RSKita\bin\Debug\RSKita(ALPHA PROTOTYPE) ver.0.0.1.exe
+D:\Codex\Source\WPF Project\RSKita\RSKita\bin\Debug\RSKita(ALPHA PROTOTYPE) ver.0.0.1.pdb
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\RSKita(ALPHA PROTOTYPE) ver.0.0.1.g.resources
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\RSKita(ALPHA PROTOTYPE) ver.0.0.1.exe
+D:\Codex\Source\WPF Project\RSKita\RSKita\obj\Debug\RSKita(ALPHA PROTOTYPE) ver.0.0.1.pdb
